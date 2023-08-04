@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Button</title>
+<script>
+function changeImage(imageName) {
+  var image = document.getElementById("image");
+  image.src = imageName;
+}
+</script>
+</head>
+<body>
+<img id="image" src="image1.jpg" alt="Image">
+<button onclick="changeImage('image1.jpg')">Image 1</button>
+<button onclick="changeImage('image2.jpg')">Image 2</button>
+</body>
+</html>
